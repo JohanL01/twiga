@@ -9,7 +9,7 @@ async def main() -> None:
     """
     Test if latex in llm answers are detected correctly and formated and sent to user
     """
-    your_number = "46762096888"  # Replace with your WhatsApp number (no + sign)
+    your_number = "xxxx"  # Replace with your WhatsApp number (no + sign)
     
     # Create messaging service instance
     messaging_service = MessagingService()
@@ -59,7 +59,7 @@ async def test_simple_latex() -> None:
     """
     Test with a simpler LaTeX formula in llm response
     """
-    your_number = "46762096888"  # Replace with your WhatsApp number (no + sign)
+    your_number = "xxxx"  # Replace with your WhatsApp number (no + sign)
     
     messaging_service = MessagingService()
     
